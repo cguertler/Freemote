@@ -1,0 +1,49 @@
+/* 
+    > Let's write some CSS! Simply follow these specs:
+*/
+
+/*
+    > Create a selector for <h1> and add the following attributes
+        ☑️ "Tahoma" font
+        ☑️ 30px size
+        ☑️ #777777 text color
+        ☑️ centered
+*/
+
+/*
+    > Create a selector for <ol>
+        ☑️ "Courier New" font
+        ☑️ 1.4rem size
+        ☑️ #748493 text color
+*/
+
+/*
+    > Create a selector for the "learn-more-btn" class
+        ☑️ Add a background color of #2F91FB
+        ☑️ white text color
+*/
+
+/*
+    > Finally, scroll down on this page (below the embedded code editor) to check the solution image and see if your solution matches
+
+    > If not, make sure you fix it before watching the solution video 👍 
+*/
+
+
+h1 {
+    font: tahoma;
+    font-size: 30px;
+    color: #777777;
+    text-align: center;
+}
+
+ol {
+    font: "Courier New";
+    font-size: 1.4rem;
+    color: #748493;
+}
+
+.learn-more-btn {
+    background-color: #2F91FB;
+    color: white;
+}
