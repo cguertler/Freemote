@@ -116,9 +116,9 @@ input[type=email] {
         height: 30vh;
         max-width: 444px;
         margin: auto;
-        background-image: url(https://assets.codepen.io/6060109/athlete-girl.png);
+        background-image: url(https://assets.codepen.io/6060109/shoes.png);
         background-repeat: no-repeat;
-        position: top;
+        background-position-y: 58%;
         background-size: 100%;
     }
     
