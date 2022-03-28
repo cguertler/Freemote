@@ -46,7 +46,7 @@ h1 {
 }
 
 .header-part1 {
-    color: #CD3A24;
+    color: #2f80ed;
     font-weight: normal;
 }
 
@@ -75,15 +75,24 @@ input[type=email] {
     border: none;
 }
 
-input[type=submit] {
-    width: 4rem;
+.button-container {
+    position: relative;
+    width: 4rem;    
     border: 1px solid #333333;
     border-radius: 1px;
-    color: #ffffff;
-    background-color: #333333;
-    font-weight: bold;
-    font-size: 1.13rem;
+    background-color: #7a7a7a; /* For browsers that don't support gradients */
+    background-image: linear-gradient(to bottom right, #7a7a7a, #323030);
+    /* background-color: #333333; */
+    font-weight: 100;
+}
 
+.button-arrow {
+    position: absolute;    
+    color: #eaeaea;
+    font-size: 2.5rem;
+    bottom: 50%;
+    left: 50%;
+    transform: translate(-50%,40%);
 }
 /* ************************************ */
 /* End of styles applied to all devices */
@@ -152,17 +161,20 @@ input[type=submit] {
     }
 
     .desktop-left-side {
+        flex-basis: 57%;
 
     }
 
     .desktop-right-side {        
+        flex-basis: 43%;
         background-image: url(https://assets.codepen.io/6060109/shoes.png);
         height: 100%;
         width: 100vh;
-        background-position: right top;
+        background-position: center;
         background-repeat: no-repeat;
-        background-size: cover;
-        background-position: left;
+        background-size: contain;
+        /* background-position: left; */
+        /* transform: translateX(-50%); */
     }
     
     .logo { 
@@ -184,14 +196,13 @@ input[type=submit] {
 }
 
 
-}
+
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {}
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-
+@media only screen and (min-width: 1200px) {}
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1491px) {
     .outermost-container {

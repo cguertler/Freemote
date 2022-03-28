@@ -1,0 +1,25 @@
+.outermost-container {
+    width: 1200px;
+    height: 700px;
+    border: 1px solid black;
+    display: flex;
+}
+
+.left-side {
+    border: 4px solid blue;
+    height: 98%;
+    flex-basis: 57%;
+}
+
+.right-side {
+    border: 4px solid Green;
+    height: 98%;
+    flex-basis: 43%;
+}
+
+.right-side-inner-container {
+    background-image: url(https://assets.codepen.io/6060109/shoes.png);
+    height: 100%;
+    width: 100%;;
+    background-position: center;
+}

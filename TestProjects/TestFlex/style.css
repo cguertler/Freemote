@@ -22,11 +22,13 @@ html, body {
 }
 
 .ba {
-    background-color: blue;    
+    background-color: blue;
+    flex-basis: 57%;    
 }
 
 .bb {
     background-color: green;
+    flex-basis: 43%;
 }
 
 .level3 {
