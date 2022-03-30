@@ -1,0 +1,10 @@
+.outer-box {
+    border: 1px solid black;
+}
+
+.inner-box {
+    border: 3px solid red;
+    width: 100px;
+    margin: 0 auto 0 auto;
+    display: block;
+}

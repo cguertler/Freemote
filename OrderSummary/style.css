@@ -1,20 +1,18 @@
-/* All Screen Sizes */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+/* All Screen Sizes */
 
 * {
     margin: 0;
-    padding: 0;
-    font-style: unset;
-    font-weight: unset;
-    font-size: unset;
+    padding: 0;        
     line-height: unset;
     box-shadow: none;
     border-style: none;
-    font-family: unset;
 }
 
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 
 html, body {
     width: 100%;
@@ -23,7 +21,8 @@ html, body {
     background-repeat: no-repeat;
     background-size: cover;
     box-sizing: border-box;
-
+    font-family: Montserrat;   
+    
 }
 
 .outermost-container {
@@ -47,7 +46,28 @@ html, body {
     position: absolute;
     right: 10px;
     top: 10px;
+}
 
+#main-image {
+    display: block;
+    margin: 50px auto 0 auto;
+}
+
+h2 {
+    font-size: 27px;
+    font-weight: 600;
+    color: #2F463D;
+    text-align: center;
+    margin-top: 29px;
+    font: 'Montserrat';
+}
+
+.body-text {
+    text-align: center;
+    margin: 10px 35px 0 35px;
+    font-family: ubuntu;
+    font-weight: 400;
+    color: #828282;
 }
 
 
