@@ -1,0 +1,78 @@
+/* All Screen Sizes */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-style: unset;
+    font-weight: unset;
+    font-size: unset;
+    line-height: unset;
+    box-shadow: none;
+    border-style: none;
+    font-family: unset;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html, body {
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://assets.codepen.io/6060109/ZigZag.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+
+}
+
+.outermost-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-panel {    
+    border-radius: 5px;
+    width: 327px;
+    height: 567px;
+    background-color: #ffffff;
+    position: relative;
+}
+
+.close-icon {
+    background-image: url(https://assets.codepen.io/6060109/food-close-x.png);
+    width: 21.8px;
+    height: 21.8px;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+
+}
+
+
+
+
+/* Extra small devices (phones, 600px and down) */
+/* @media only screen and (max-width: 600px) {} */
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* @media only screen and (min-width: 600px) {} */
+
+/* All Smaller devices ( Anything smaller thanlandscape tablets, 768px and down) */
+@media only screen and (max-width: 768px) {
+
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
