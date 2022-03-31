@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    height: 50px;
+
+}
+
+.outer-container {
+    display: flex;
+}
+
+.outer-container-set-width {
+    width: 319px;
+}
+
+.a {
+    background-color: aqua;
+}
+
+.b {
+    background-color: green;
+}
+
+.c {
+    background-color: purple;
+}
+
+.a-width {
+    width: 52px;
+}
+
+.b-width {
+    width: 189px;
+}
+
+.c-width {
+    width: 78px;
+}
+
+a-with-flex-grow {
+    flex-grow: 2;
+}
+
+b-with-flex-grow {
+    flex-grow: 5;
+}
+
+c-with-flex-grow {
+    flex-grow: 3;
+}
