@@ -14,6 +14,9 @@ div {
 
 .outer-container-set-width {
     width: 319px;
+    justify-content: center;
+    /* border: 1px solid black; */
+    box-sizing: border-box;
 }
 
 .a {
@@ -40,14 +43,19 @@ div {
     width: 78px;
 }
 
-a-with-flex-grow {
-    flex-grow: 2;
+.a-with-flex-grow {
+    flex: 2 1px;
+    /* border: 1px solid blue; */
 }
 
-b-with-flex-grow {
-    flex-grow: 5;
+.b-with-flex-grow { 
+    flex: 5 1px;
+    /* border: 1px solid black; */
 }
 
-c-with-flex-grow {
-    flex-grow: 3;
+.c-with-flex-grow {
+    min-width: 50px;
+    flex: 3 1px;
+    /* border: 1px solid black; */
 }
+

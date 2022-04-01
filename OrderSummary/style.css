@@ -9,6 +9,7 @@
     line-height: unset;
     box-shadow: none;
     border-style: none;
+    color: unset;
 }
 
 
@@ -82,29 +83,40 @@ h2 {
 }
 
 .menu-image {
-    flex-grow: 2;
+    flex: 2 1px;
     background-image: url(https://assets.codepen.io/6060109/Rectangle.png);
     background-repeat: no-repeat;
+    border-radius: 5px 0 0 5px;
 
 }
 
-.menu-item {
-    background-color: #3C7B61;
+.menu-item-box {
     box-sizing: border-box;
-    flex-grow: 5;
+    flex: 5 1px;
+    font-size: 14px;
+    padding-left: 10px;
+    background-color: #F0FFF5;
 }
 
-.menu-item>p {
-    display: inline-block;
-    box-sizing: border-box;
-    /* flex-basis: 0; */
-    /* width: 0px; */
-    border: 1px solid black;
+#menu-item {
+    margin-top: 8px;
+    font-weight: 800;
+    color: #2F463D;
+}
+
+#price {
+    font-weight: 500;
+    color: #7A8F85;
 }
 
 .change-option {
-    background-color: purple;
-    flex-grow: 3;
+    padding-top: 14px;
+    font-size: 13px;
+    font-weight: 700;
+    flex: 3 1px;
+    color: #467A66;
+    background-color: #F0FFF5;
+    border-radius: 0 5px 5px 0;
 }
 
 
