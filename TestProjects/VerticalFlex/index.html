@@ -1,23 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Order Summary</title>
 </head>
+
 <body>
-    <div class="outer-container">
-        <div class="text-panel">
-            <h2>Choose a dish</h2>
-            <p class="body-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto porro enim maxime.
-            </p>
-            <div class="button">
-                <p>Next <span class="arrow">→</span></p>
+    <div class="outermost-container">
+        
+        <div class="content-panel choose-dish-panel">
+            <img class="close-icon" src="https://assets.codepen.io/6060109/food-close-x.png" alt="Close X">
+        
+            <img id="main-image" src="images/hamburger.webp" alt="Hamburger">
+            <div class="text-panel">
+                <h2>Choose a dish</h2>
+                <p class="body-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto porro enim maxime.
+                </p>
+                <div class="button">
+                    <p>Next <span class="arrow">→</span></p>
+                </div>
+            </div>
+            <div class="elipsis-container">
+                <div class="dot active-dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+            </div>
+        </div>
+        
+        <div class="content-panel confirmation-panel">
+            <img class="close-icon" src="https://assets.codepen.io/6060109/food-close-x.png" alt="Close X">
+
+            <img id="main-image" src="images/food-happy-crop.webp" alt="Happy Face">
+            <div class="text-panel">
+                <h2 id="confirmation-text">Confirmation</h2>
+                <p class="body-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto porro enim maxime.
+                </p>
+                <div class="menu-box">
+                    <img src="images/Rectangle.webp" alt="hamburger">
+                    <div class="menu-item-box">
+                        <h5 id="menu-item">Big Mac Menu</h5>
+                        <h6 id="price">$29.99</h6>
+                    </div>
+                    <a href="#">Change</a>
+                </div>
+                <div class="button active-button">
+                    <p>I'm Ready to Eat!</p>
+                </div>
+            </div>
+            <div class="elipsis-container">
+                <div class="dot"></div>
+                <div class="dot active-dot"></div>
+                <div class="dot"></div>
+            </div>
+        </div>
+
+
+        <div class="content-panel order-process-begins-panel">
+            <img class="close-icon" src="https://assets.codepen.io/6060109/food-close-x.png" alt="Close X">
+
+            <img id="main-image" src="images/delivery-man-crop.png" alt="Delivery man">
+            <div class="text-panel">
+                <h2 id="confirmation-text">Your order<br>process begins</h2>
+                <p class="body-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto porro enim maxime.
+                </p>                
+                <div class="button">
+                    <p>Track on the map</p>
+                </div>
+            </div>
+            <div class="elipsis-container">
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot active-dot"></div>
             </div>
         </div>
     </div>
-    
 </body>
+
 </html>
